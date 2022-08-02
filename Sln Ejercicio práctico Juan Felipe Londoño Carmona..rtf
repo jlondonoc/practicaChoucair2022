@@ -1,0 +1,270 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2058{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green77\blue187;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\cf1\b\fs24\lang10 Realizar las consultas que considere pertinentes al cliente, que le permitan acotar correctamente el alcance:\par
+
+\pard\sl259\slmult0\qj\cf0\par
+\b0 - \'bfCual es la clave de matriculaci\'f3n-CBO para cursos de automatriculaci\'f3n?.\b\par
+\b0 - \'bfCantidad m\'e1xima de usuarios que pueden acceder a Choucair Academy?.\par
+- \'bfCantidad m\'e1xima de usuarios que pueden inscribirse a un curso?.\par
+- \'bfQu\'e9 otros perfiles pueden acceder a la realizaci\'f3n de cursos?.\par
+- \'bfHay manuales de usuario para la realizaci\'f3n de un curso?.\par
+- \'bfPorqu\'e9 es importante salir a producci\'f3n en los siguientes 15 d\'edas h\'e1biles?.\b\par
+\b0 - \'bfQui\'e9n o quienes son los desarrolladores de Choucair Academy?.\par
+- \'bfNos proveen ambiente de pruebas y quienes lo administran en caso de requerir informaci\'f3n del mismo?.\par
+- \'bfTiene alg\'fan sistema para el reporte de incidencias o requerimientos para cuando se realice la ejecuci\'f3n?.\par
+- \'bfCon que porcentaje de disponibilidad se cuenta para el ambiente de pruebas, es permanente o por ventanas de pruebas?.\b\par
+\b0 - \'bfChoucair Academy es multilenguaje o s\'f3lo en idioma espa\'f1ol?.\par
+- \'bfEn que situaciones el colaborador no se puede automatricular al curso?\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\cf1\b Defina la estructura del equipo de pruebas y las actividades a cargo para cada una de las personas del equipo (metodolog\'eda Choucair):\par
+
+\pard\sl259\slmult0\qj\cf0\par
+\b0 Se encuentra definida en el plan de pruebas (trabajado en grupo).\par
+\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\cf1\b Establezca un plan de pruebas de acuerdo al alcance entregado que incluya la estimaci\'f3n de tiempos:\par
+
+\pard\sl259\slmult0\qj\cf0\par
+\b0 El plan de pruebas se encuentra realizado y subido al github.\par
+\par
+\b\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\cf1 Crear una Historia de Usuario de acuerdo a la funcionalidad entregada con m\'ednimo 5 criterios de aceptaci\'f3n:\par
+
+\pard\sl259\slmult0\qj\cf0\par
+Funcionalidad: \b0 Realizar el curso.\par
+
+\pard\sl240\slmult1\qj\b HU001\b0  Inscripci\'f3n al curso activo.\par
+\par
+\b Yo como \b0 colaborador de Choucair.\b\par
+Quiero \b0 Inscribirme a un curso activo que se encuentre habilitado en Choucair Academy.\par
+\b Para\b0  Acceder a todo el material de formaci\'f3n acad\'e9mica respectivo. \par
+\par
+\b CRITERIOS DE ACEPTACI\'d3N:\par
+\par
+* \b0 Para acceder a los cursos disponibles se debe contar con los grupos de cada categor\'eda, al ingresar se deben poder visalizar los cursos que se encuentren disponibles. \b\par
+\par
+\b0 * Cuando un curso se encuentre disponible de acuerdo con el perfil logueado, \'e9ste debe mostrar el bot\'f3n "Matricularme" para realizar la automatricula.\par
+\par
+* Cuando un curso no se encuentre disponible de acuerdo con el perfil logueado, \'e9ste debe mostrar el bot\'f3n "Continuar" para salir de las opciones de matriculaci\'f3n.\par
+\par
+* La plataforma web - Choucair Academy debe ser responsive.\par
+\par
+* Cuando el colaborador realic\'e9 la inscripci\'f3n a un curso, el sistema deb mostrarle un mensaje de informativo confirmando o rechazando la solicitud.\par
+\par
+* Choucair Academy debe contener un "finalizador de sesi\'f3n" para cuando transcurran varios minutos de inactividad.\par
+\par
+\par
+\b REQUISITOS DEL SISTEMA/USUARIO:\b0\par
+* La funcionalidad debe encontrarse en la intranet de Choucair Testing S.A.S, la cual puede accederse desde cualquier navegador web.\par
+* La plataforma permitir\'e1 el ingreso indeterminado de usuarios.\par
+* La plataforma debe tener m\'ednimo un curso activo.\par
+* El usuario logueado debe contar con unos perfiles de curso (Entrenamiento continuo online - Inducci\'f3n corporativa) definidos y un rol de "Estudiante".\par
+
+\pard\sa200\sl240\slmult1\qj * Los cursos deben estar en espa\'f1ol.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\cf1\b De la HU anteriormente creada dise\'f1ar 6 casos de prueba donde 3 son de camino feliz y los otros 3 de camino no feliz.\par
+
+\pard\sl240\slmult1\qj\cf0\b0\par
+\b Dise\'f1o de Casos de Prueba / Funcionalidad: Realizar el curso.\tab\par
+\b0\tab\par
+\b Id de Caso:\b0\tab 001.\par
+\b Nombre de Caso de prueba:\b0\tab Acceso a cursos disponibles por grupo de acuerdo con cada categor\'eda.\par
+\b Estado del Caso de Prueba:\b0\tab Nuevo.\par
+\b Responsable:\b0\tab Juan Felipe Londo\'f1o Carmona.\par
+\b Objetivo:\b0\tab Verificar que haya acceso a los cursos que se encuentren disponibles.\par
+\par
+\b Precondiciones:\b0\tab - Tener un usuario activo.\par
+                                    - Conexi\'f3n local (Intranet).\par
+                                    - Perfil de estudiante asignado.\par
+                                    \par
+\b Paso a Paso:            \b0 1. Ingresar a la intranet.\par
+                                      2. Loguearse en el sistema.\par
+                                      3. En aplicaciones de Choucair seleccionar "SharePoint".\par
+                                      4. En las opciones recientes, del men\'fa vertical del lado \par
+                                          izquierdo, clic en "Intranet Shoucair".\par
+                                      5. En la secci\'f3n "Formarme", clic en: Choucair Academy.\par
+                                      6. En categor\'eda, seleccionar "Universidad Chocuair".\par
+                                      7. Utilizando el buscador disponible, ingresar nombre de los\par
+                                          cursos que sean de su inter\'e9s.\par
+                                      8. Seleccionar el grupo de cursos que desee.\par
+\par
+\b Resultado esperado del caso de prueba: \b0 Se ingresa a los cursos que se encuentran disponibles, visualizando: El nombre completo del curso (obligatorio), la categor\'eda a la que pertenece (obligatoria) y el nombre del profesor (opcional).\par
+\par
+\b Resultado obtenido del caso de prueba: \b0 Fue satisfactoria la prueba.\par
+\par
+\par
+\par
+\par
+\b Id de Caso:\b0\tab 002.\par
+\b Nombre de Caso de prueba:\b0\tab Realizar inscripci\'f3n a un curso que se encuentre disponible.\par
+\b Estado del Caso de Prueba:\b0\tab Nuevo.\par
+\b Responsable:\b0\tab Juan Felipe Londo\'f1o Carmona.\par
+\b Objetivo:\b0\tab Verificar que se pueda inscribir al curso seleccionado.\par
+\par
+\b Precondiciones:\b0\tab - Tener un usuario activo.\par
+                                    - Conexi\'f3n local (Intranet).\par
+                                    - Perfil de estudiante asignado.\par
+                                    \par
+\b Paso a Paso:            \b0 1. Ingresar a la intranet.\par
+                                      2. Loguearse en el sistema.\par
+                                      3. En aplicaciones de Choucair seleccionar "SharePoint".\par
+                                      4. En las opciones recientes, del men\'fa vertical del lado \par
+                                          izquierdo, clic en "Intranet Shoucair".\par
+                                      5. En la secci\'f3n "Formarme", clic en: Choucair Academy.\par
+                                      6. En categor\'eda, seleccionar "Universidad Chocuair".\par
+                                      7. Utilizando el buscador disponible, ingresar nombre de los\par
+                                          cursos que sean de su inter\'e9s.\par
+                                      8. Seleccionar el grupo de cursos que desee.\par
+\par
+\b Resultado esperado del caso de prueba: \b0 Al seleccionar el curso deseado, en la parte inferior se debe encontrar un bot\'f3n llamado: "Matricularme", que al darle clic permite realizar la inscripci\'f3n al mismo, mostrando un mensaje de confirmaci\'f3n exitosa.\par
+\par
+\b Resultado obtenido del caso de prueba: \b0 Fue satisfactoria la prueba.\par
+\par
+\par
+\par
+\par
+\b Id de Caso:\b0\tab 003.\par
+\b Nombre de Caso de prueba:\b0\tab Otras opciones de matriculaci\'f3n.\par
+\b Estado del Caso de Prueba:\b0\tab Nuevo.\par
+\b Responsable:\b0\tab Juan Felipe Londo\'f1o Carmona.\par
+\b Objetivo:\b0\tab Verificar que de haber otras opciones de matriculaci\'f3n, se pueda acceder por medio de una clave de matriculaci\'f3n.\par
+\par
+\b Precondiciones:\b0\tab - Tener un usuario activo.\par
+                                    - Conexi\'f3n local (Intranet).\par
+                                    - Perfil de estudiante asignado.\par
+                                    \par
+\b Paso a Paso:            \b0 1. Ingresar a la intranet.\par
+                                      2. Loguearse en el sistema.\par
+                                      3. En aplicaciones de Choucair seleccionar "SharePoint".\par
+                                      4. En las opciones recientes, del men\'fa vertical del lado \par
+                                          izquierdo, clic en "Intranet Shoucair".\par
+                                      5. En la secci\'f3n "Formarme", clic en: Choucair Academy.\par
+                                      6. En categor\'eda, seleccionar "Universidad Chocuair".\par
+                                      7. Utilizando el buscador disponible, ingresar nombre de los\par
+                                          cursos que sean de su inter\'e9s.\par
+                                      8. Seleccionar el grupo de cursos que desee.\par
+\par
+\b Resultado esperado del caso de prueba: \b0 Cuando se selecciona un  curso con varias opciones de matriculaci\'f3n, la plataforma las muestra (en forma de "acorde\'f3n"), permitiendo acceder a ellas por medio de una clave de matriculaci\'f3n entregada previamente.\par
+\par
+\b Resultado obtenido del caso de prueba: \b0 Fue satisfactoria la prueba.\par
+\par
+\par
+\par
+\par
+\b Id de Caso:\b0\tab 004.\par
+\b Nombre de Caso de prueba:\b0\tab Curso no disponible para el usuario logueado.\par
+\b Estado del Caso de Prueba:\b0\tab Nuevo.\par
+\b Responsable:\b0\tab Juan Felipe Londo\'f1o Carmona.\par
+\b Objetivo:\b0\tab Verificar que cuando un curso no se encuentre disponible de acuerdo con el perfil logueado, el sistema no permita realizar la inscripci\'f3n.\par
+\par
+\b Precondiciones:\b0\tab - Tener un usuario activo.\par
+                                    - Conexi\'f3n local (Intranet).\par
+                                    - Perfil de estudiante asignado.\par
+                                    \par
+\b Paso a Paso:            \b0 1. Ingresar a la intranet.\par
+                                      2. Loguearse en el sistema.\par
+                                      3. En aplicaciones de Choucair seleccionar "SharePoint".\par
+                                      4. En las opciones recientes, del men\'fa vertical del lado \par
+                                          izquierdo, clic en "Intranet Shoucair".\par
+                                      5. En la secci\'f3n "Formarme", clic en: Choucair Academy.\par
+                                      6. En categor\'eda, seleccionar "Universidad Chocuair".\par
+                                      7. Utilizando el buscador disponible, ingresar nombre de los\par
+                                          cursos que sean de su inter\'e9s.\par
+                                      8. Seleccionar el grupo de cursos que desee.\par
+\par
+\b Resultado esperado del caso de prueba: \b0 No se tienen los permisos suficientes para inscribirse en el curso seleccionado, por ende, \'e9ste no se encuentra disponible. En la parte inferior se debe encontrar un bot\'f3n "Continuar" para salir de las opciones de matriculaci\'f3n.\par
+\par
+\b Resultado obtenido del caso de prueba: \b0 No fue satisfactoria la prueba.\par
+\par
+\par
+\par
+\par
+\b Id de Caso:\b0\tab 005.\par
+\b Nombre de Caso de prueba:\b0\tab Dise\'f1o web responsive.\par
+\b Estado del Caso de Prueba:\b0\tab Nuevo.\par
+\b Responsable:\b0\tab Juan Felipe Londo\'f1o Carmona.\par
+\b Objetivo:\b0\tab Verificar que al cambiar los diferentes tama\'f1os de la p\'e1gina web, \'e9sta se adapte a todo tipo de pantallas (responsive).\par
+\par
+\b Precondiciones:\b0\tab - Tener un usuario activo.\par
+                                    - Conexi\'f3n local (Intranet).\par
+                                    - Perfil de estudiante asignado.\par
+                                    \par
+\b Paso a Paso:            \b0 1. Ingresar a la p\'e1gina web.\par
+                                     2. Cambiar de tama\'f1o la ventana.\par
+\par
+\b Resultado esperado del caso de prueba: \b0 Se ingresa a la p\'e1gina web, cuando se cambia de tama\'f1o la misma, la interfaz se adapta de acuerdo con cada medida obtenida en la ventana.\par
+\par
+\b Resultado obtenido del caso de prueba: \b0 No fue satisfactoria la prueba.\par
+\par
+\par
+\par
+\par
+\b Id de Caso:\b0\tab 006.\par
+\b Nombre de Caso de prueba:\b0\tab Finalizar sesi\'f3n.\par
+\b Estado del Caso de Prueba:\b0\tab Nuevo.\par
+\b Responsable:\b0\tab Juan Felipe Londo\'f1o Carmona.\par
+\b Objetivo:\b0\tab Verificar que la plataforma pueda finalizar la sesi\'f3n, del usuario logueado.\par
+\par
+\b Precondiciones:\b0\tab - Tener un usuario activo.\par
+                                    - Conexi\'f3n local (Intranet).\par
+                                    - Perfil de estudiante asignado.\par
+                                    \par
+\b Paso a Paso:            \b0 1. Ingresar a la intranet.\par
+                                      2. Loguearse en el sistema.\par
+                                      3. En aplicaciones de Choucair seleccionar "SharePoint".\par
+                                      4. En las opciones recientes, del men\'fa vertical del lado \par
+                                          izquierdo, clic en "Intranet Shoucair".\par
+                                      5. En la secci\'f3n "Formarme", clic en: Choucair Academy.\par
+                                      6. En categor\'eda, seleccionar "Universidad Chocuair".\par
+                                      7. Utilizando el buscador disponible, ingresar nombre de los\par
+                                          cursos que sean de su inter\'e9s.\par
+                                      8. Seleccionar el grupo de cursos que desee.\par
+\par
+\b Resultado esperado del caso de prueba: \b0 Luego de que el usuario logueado presente varios minutos de inactividad el sistema debe finalizar su sesi\'f3n, permiti\'e9ndole volverse a loguear para continuar su actividad.\par
+\par
+\b Resultado obtenido del caso de prueba: \b0 No fue satisfactoria la prueba.\par
+\par
+\par
+\par
+\par
+
+\pard\sl259\slmult0\qj\cf1\b Criterios finales\par
+Por favor responda a las siguientes preguntas abiertas:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\qj\cf0\'bfCree usted que puede dise\'f1ar casos de prueba sin tener la aplicaci\'f3n? \'bfpor qu\'e9?\par
+
+\pard\sl259\slmult0\qj R//= \b0 Si se pueden dise\'f1ar casos de prueba sin tener la aplicaci\'f3n, porque se puede partir de utilizar los insumos varios generados al momento de iniciar el proyecto como son: El levantamiento de requisitos, las reuniones con los clientes o informaci\'f3n entregada por el Product Owner que sea valiosa para la construcci\'f3n de los mismos.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\qj\b\'bfQu\'e9 informaci\'f3n o documentaci\'f3n considera importante para el inicio de las pruebas?\par
+
+\pard\sl259\slmult0\qj R//= \b0 Levantamiento de requisitos o historias de usuario.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\qj\b\'bfSi la documentaci\'f3n no es clara usted que har\'eda?\par
+
+\pard\sl259\slmult0\qj R//= \b0 Consultar con el Product Owner y/o cliente(s) de ser posible, buscando aclarar todas las inquietudes al respecto.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\qj\b\'bfQui\'e9n cree que es el responsable de que usted conozca el contexto de negocio y la aplicaci\'f3n a probar?\par
+
+\pard\sl259\slmult0\qj R//= \b0 El Product Owner es el responsable de transmitirnos el contexto del proyecto y de la aplicaci\'f3n a probar.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent360{\pntxtb\'B7}}\fi-360\li720\sl259\slmult0\qj\b\'bfsi entregara un informe de avance de sus pruebas que informaci\'f3n relacionar\'eda?\par
+
+\pard\sl259\slmult0\qj R//= \b0 La informaci\'f3n que relacionar\'eda en el informe de pruebas ser\'eda la siguiente:\par
+\par
+- Resumen de las pruebas realizadas.\par
+- Desviaciones presentadas de acuerdo con el plan de pruebas, teniendo en cuenta el cronograma, la duraci\'f3n y esfuerzo real empleado en cada actividad de prueba.\par
+- Estados de los casos de prueba, en funci\'f3n de los criterios definidos.\par
+- Calidad del producto respecto a los criterios de entrada y salida.\par
+- Bloqueos presentados que afecten el avance.\par
+- M\'e9tricas relacionadas tenidas en cuenta para: la cobertura de prueba, los casos de prueba, defectos, y consumo de recursos por ejemplo.\par
+}
+ 
